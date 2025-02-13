@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: .4em;
+}
+
+main {
+    width: 21cm;
+    height: 29cm;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+
+}
+
+.header__info {
+    padding: 1em;
+    margin-bottom: 2em;
+    align-self: flex-end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #2d2c2e;
+    z-index: 1;
+}
+
+.header__info__link {
+    text-decoration: none;
+    color: #2d2c2e;
+    transition: 5s;
+}
+
+.header__info__link:hover {
+    text-decoration: underline;
+}
+
+.header__cabeçalho {
+    align-self: flex-start;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    background-color: #2d2c2e;
+    width: 100%;
+    height: 100px;
+}
+
+.header__cabeçalho__img {
+    padding: 0px 2em 0px 0px;
+}
+
+.header__cabeçalho__text {
+    padding: 1em;
+    width: 1000%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: #2d2c2e;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.header__cabeçalho__text--bold {
+    font-weight: bold;
+}
+
+.header__cabeçalho__text--color {
+    color: #fd1f4a;
+}
+
+.section__infos {
+    margin-left: 4em;
+    color: #2d2c2e;
+    padding-bottom: 2em;
+}
+
+.section__infos>ul {
+    margin-left: 1.2em;
+}
+
+.section__infos__object {
+    margin: 2em 4em;
+    width: 90%;
+    font-size: 16px;
+    border-bottom: 2px solid #2d2c2e;
+    border-top: 2px solid #2d2c2e;
+}
+
+.section__habilits {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.section__habilits ul {
+    margin: 1.2em;
+
+}
+
+.bar {
+    width: 20px;
+    height: 200px;
+    background-color: #2d2c2e;
+    margin-right: 2em;
+}
+
+.box--red {
+
+padding-top: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+    & div {
+        margin-right: 100px;
+        height: 20px;
+        width: 40px;
+        background-color: #fd1f4a;
+
+    }
+}
